@@ -36,7 +36,7 @@ public class PersonaController {
     }
 
     @DeleteMapping("/persona/delete/{id}")
-    public void delete(@PathVariable int id){
+    public void delete(@PathVariable Integer id){
         personaService.borrarPersona(id);
     }
 
